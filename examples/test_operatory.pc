@@ -1,0 +1,26 @@
+# Test operatorów
+
+niech a: Calk = 10
+niech b: Calk = 3
+
+wypisz(a + b)
+wypisz(a - b)
+wypisz(a * b)
+wypisz(a / b)
+
+wypisz(a == b)
+wypisz(a != b)
+wypisz(a > b)
+wypisz(a < b)
+wypisz(a >= b)
+wypisz(a <= b)
+
+niech p: Calk = 5
+niech q: Calk = 8
+
+wypisz((p > 0) i (q > 0))
+wypisz((p > 100) lub (q > 0))
+wypisz(nie (p > 100))
+
+niech ujemna: Calk = -a
+wypisz(ujemna)

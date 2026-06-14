@@ -1,0 +1,36 @@
+# Test instrukcji warunkowej (jesli / inaczej jesli / inaczej)
+
+niech x: Calk = 10
+
+jesli x > 10:
+    wypisz(1)
+inaczej jesli x == 10:
+    wypisz(2)
+inaczej:
+    wypisz(3)
+
+niech y: Calk = 15
+
+jesli y > 10:
+    wypisz(100)
+inaczej jesli y == 10:
+    wypisz(200)
+inaczej:
+    wypisz(300)
+
+niech z: Calk = 5
+
+jesli z > 10:
+    wypisz(111)
+inaczej jesli z == 10:
+    wypisz(222)
+inaczej:
+    wypisz(333)
+
+# samo jesli/inaczej, bez inaczej jesli
+niech w: Calk = 1
+
+jesli w == 1:
+    wypisz(1000)
+inaczej:
+    wypisz(2000)

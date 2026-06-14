@@ -1,0 +1,6 @@
+# Test bledu semantycznego: warunek instrukcji jesli musi byc typu logicznego
+
+niech x: Calk = 5
+
+jesli x:
+    wypisz(x)

@@ -1,0 +1,7 @@
+# Test bledu semantycznego: redeklaracja zmiennej
+
+niech x: Calk = 5
+wypisz(x)
+
+niech x: Calk = 10
+wypisz(x)

@@ -1,0 +1,23 @@
+# To jest komentarz jednoliniowy
+niech x: Calk = 5  
+# komentarz po deklaracji nie jest obslugiwany jako "inline", wiec ten test
+# sprawdza komentarze jedynie w osobnych liniach
+
+'''
+To jest komentarz
+wieloliniowy, ktory powinien byc
+calkowicie ignorowany przez interpreter
+'''
+
+wypisz(x)
+
+# kolejny komentarz jednoliniowy przed druga zmienna
+niech y: Calk = 10
+
+'''Komentarz wieloliniowy w jednej linii'''
+
+wypisz(y)
+
+niech suma: Calk = x + y
+# wypisanie wyniku
+wypisz(suma)

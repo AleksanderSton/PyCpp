@@ -1,0 +1,10 @@
+# Test zmiennych: deklaracja i przypisanie
+
+niech x: Calk = 5
+wypisz(x)
+
+x = 20
+wypisz(x)
+
+niech y: Calk = x + 1
+wypisz(y)

@@ -1,0 +1,21 @@
+# Test wypisz i wczytaj
+# UWAGA: ten program wymaga wpisania liczby z klawiatury podczas dzialania
+
+wypisz("Podaj liczbe:")
+
+niech liczba: Calk = 0
+wczytaj(liczba)
+
+wypisz("Wczytano:")
+wypisz(liczba)
+
+niech podwojona: Calk = liczba * 2
+wypisz("Podwojona wartosc:")
+wypisz(podwojona)
+
+jesli liczba > 0:
+    wypisz("Liczba jest dodatnia")
+inaczej jesli liczba == 0:
+    wypisz("Liczba jest rowna zero")
+inaczej:
+    wypisz("Liczba jest ujemna")

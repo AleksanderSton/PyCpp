@@ -1,0 +1,6 @@
+# Test bledu skladniowego: brak wciecia po dwukropku
+
+niech x: Calk = 5
+
+jesli x > 0:
+wypisz(x)

@@ -1,0 +1,12 @@
+niech x: Calk = 10
+jesli x > 10:
+    wypisz("Większe niż 10")
+inaczej jesli x == 10:
+    wypisz("Równe 10")
+inaczej:
+    wypisz("Mniejsze niż 10")
+
+niech counter: Calk = 0
+dopoki counter < 5:
+    wypisz(counter)
+    counter = counter + 1
