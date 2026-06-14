@@ -51,7 +51,7 @@ pip install ply --break-system-packages
 
 ---
 
-## 3. Sposób uruchomienia (dla prowadzącego)
+## 3. Sposób uruchomienia 
 
 ### Szybki start
 
